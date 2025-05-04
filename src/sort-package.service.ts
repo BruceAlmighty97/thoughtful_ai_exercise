@@ -16,7 +16,6 @@ export class SortPackageService {
         length: number,
         weight: number
     ): SortPackageType {
-        let packageType: SortPackageType;
         const isBulky = this.isBulky(width, height, length);
         const isHeavy = this.isHeavy(weight);
         return this.getClassification(isBulky, isHeavy);
