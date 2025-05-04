@@ -21,3 +21,8 @@ The sort package functionality is executed as a TypeScript service SortPackageSe
 1. Clone the repo
 2. Run npm install
 3. To execute tests: `npm run test`
+
+### edge cases
+I didn't add unit tests but to include edge cases and coverage reports, I would add a unit test file here to test all the cases, provide a coverage report, and include cases where one of the dimensions was less than or equal to 0, and in the service, throw an error for this case.
+
+I could then test for this thrown error in the unit test cases I write.
