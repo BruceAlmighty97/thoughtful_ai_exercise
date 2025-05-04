@@ -1,0 +1,23 @@
+{
+  "name": "thoughtful_ai_exercise",
+  "version": "1.0.0",
+  "description": "Exercise for Thoughtful AI",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node dist/test/test-sort-package.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BruceAlmighty97/thoughtful_ai_exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BruceAlmighty97/thoughtful_ai_exercise/issues"
+  },
+  "homepage": "https://github.com/BruceAlmighty97/thoughtful_ai_exercise#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

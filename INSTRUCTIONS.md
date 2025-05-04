@@ -1,7 +1,5 @@
-# Thoughtful AI Exercise
-
-## Instructions
 ### Rules
+
 Sort the packages using the following criteria:
 
 - A package is **bulky** if its volume (Width x Height x Length) is greater than or equal to 1,000,000 cm³ or when one of its dimensions is greater or equal to 150 cm.
@@ -15,9 +13,4 @@ You must dispatch the packages in the following stacks:
 
 ### Implementation
 
-The sort package functionality is executed as a TypeScript service SortPackageService with private functions to handle cases and enum for types, as well as parameterized maxes.
-
-### To test
-1. Clone the repo
-2. Run npm install
-3. To execute tests: `npm run test`
+Implement the function **`sort(width, height, length, mass)`** (units are centimeters for the dimensions and kilogram for the mass). This function must return a string: the name of the stack where the package should go.
